@@ -179,3 +179,16 @@ p {
 a.button-2:hover {
   border: 3px solid #171219;
 }
+
+#uw-courses .course-card {
+  height: 120px;
+}
+
+#uw-courses > .section-type-1 .course-card, #other-courses .course-card-section > .course-card {
+  border-color: #edf060;
+  height: 120px;
+}
+#other-courses .course-card-section > .course-card > .course-code {
+  font-size: 1.5rem;
+  text-align: center;
+}
