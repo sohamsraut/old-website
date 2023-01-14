@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="about.js"></script>
-    <title>Developing... | Soham Raut</title>
+    <title>Projects | Soham Raut</title>
   </head>
   <body class="d-flex flex-column">
     <nav class="navbar navbar-expand-lg">
@@ -29,7 +29,7 @@
               <a class="nav-link fw-bold" aria-current="page" href="courses.html">COURSES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" aria-current="page" href="#">PROJECTS</a>
+              <a class="nav-link fw-bold active" aria-current="page" href="#">PROJECTS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold" aria-current="page" href="about.html">ABOUT</a>
@@ -39,9 +39,97 @@
       </div>
     </nav>
     <header class="d-flex flex-column justify-content-center align-items-center mt-4">
-      <h1>Currently in development...</h1>
-      <h2>Be back soon!</h2>
+      <h1>Projects</h1>
+      <section class="d-flex justify-content-center align-items-center">
+        <a href="#current-proj">Current</a>
+        <a href="#old-proj">Previous</a>
+      </section>
     </header>
+    <main>
+      <section id="current-proj" class="d-flex flex-column mt-4 pt-5 section-type-1">
+        <h2 class="ps-md-5 pe-md-5 ps-2 pe-2">Current Projects</h2><hr>
+        <section class="ps-md-5 pe-md-5 ps-2 pe-2 py-2 section-type-2 w-100 proj">
+          <h3 class="mt-2 py-2">TaskMaster 2.0</h3><hr>
+          <section class="proj-details mt-2 py-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <img src="img/projects/taskmaster.png" class="ms-2 me-5">
+            <section class="d-flex flex-wrap flex-column justify-content-center align-items-center m-3 ms-4">
+              <p>
+                TaskMaster is a full-stack web application that simplifies managing your tasks! It is built
+                to create, delete, and store tasks efficiently, along with a secure login system. It uses an
+                in-house REST API built using Node.js and Express.js with an SQL database to store profiles
+                and tasks.
+              </p>
+              <ul class="proj-tech mt-0 list-unstyled d-flex flex-wrap gap-3">
+                <li class="p-1 small">HTML</li>
+                <li class="p-1 small">CSS</li>
+                <li class="p-1 small">JavaScript</li>
+                <li class="p-1 small">Express.js</li>
+                <li class="p-1 small">Node.js</li>
+                <li class="p-1 small">SQLite</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <section class="ps-md-5 pe-md-5 ps-2 pe-2 py-2 section-type-1 w-100 proj">
+          <section class="proj-details mt-2 py-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <img src="img/projects/tic-tac-toe.png" class="ms-2 me-5">
+            <section class="d-flex flex-wrap flex-column justify-content-center align-items-center m-3 ms-4">
+              <p>
+                A front-end web application that allows users to play the classic game of Tic-Tac-Toe.
+                It currently only supports 2 players, but I'm working on an algorithm that allows a user
+                to play with a computer.
+              </p>
+              <ul class="proj-tech mt-0 list-unstyled d-flex flex-wrap gap-3">
+                <li class="p-1 small">HTML</li>
+                <li class="p-1 small">CSS</li>
+                <li class="p-1 small">JavaScript</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section id="old-proj" class="d-flex flex-column mt-4 pt-5 section-type-1">
+        <h2 class="ps-md-5 pe-md-5 ps-2 pe-2">Previous Projects</h2><hr>
+        <section class="ps-md-5 pe-md-5 ps-2 pe-2 py-2 section-type-2 w-100 proj">
+          <h3 class="mt-2 py-2">The Evil Typing Test</h3><hr>
+          <section class="proj-details mt-2 py-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <img src="img/projects/evil-test.png" class="me-5 ms-2">
+            <section class="d-flex flex-wrap flex-column justify-content-center align-items-center m-3 ms-4">
+              <p>
+                The Evil Typing Test is, well, an evil typing test implemented as a web application.
+                The main idea behind it was that text in normal typing tests makes sense, so what if
+                there was a typing test in which the text didn't make sense? Thus, the Evil Typing
+                Test was born, with random text retrieved from the FakerAPI.
+              </p>
+              <ul class="proj-tech mt-0 list-unstyled d-flex flex-wrap gap-3">
+                <li class="p-1 small">HTML</li>
+                <li class="p-1 small">CSS</li>
+                <li class="p-1 small">JavaScript</li>
+                <li class="p-1 small">REST API</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <section class="ps-md-5 pe-md-5 ps-2 pe-2 py-2 section-type-1 w-100 proj">
+          <h3 class="mt-2 py-2">GameZone</h3><hr>
+          <section class="proj-details mt-2 py-2 d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <img src="img/projects/gamezone.png" class="me-5 ms-2">
+            <section class="d-flex flex-wrap flex-column justify-content-center align-items-center m-3 ms-4">
+              <p>
+                GameZone is a quick, responsive text-based game arcade consisting of 5 games: Mastermind,
+                Tic-Tac-Toe, Hangman, Rock-Paper-Scissors, and Quizzer. It was created as part of a school
+                project by my team. It is implemented in Python, and uses a CSV-based login and records system
+                to store user data and records for each game.
+              </p>
+              <ul class="proj-tech mt-0 list-unstyled d-flex flex-wrap gap-3">
+                <li class="p-1 small">Python</li>
+                <li class="p-1 small">MySQL</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-auto bottom-0">
       <div class="col-md-4 d-flex align-items-center ms-2">
         <span class="mb-3 mb-md-0">© Soham Raut, 2022</span>
