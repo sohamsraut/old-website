@@ -192,3 +192,24 @@ a.button-2:hover {
   font-size: 1.5rem;
   text-align: center;
 }
+
+.proj > .proj-details > img {
+  width: max(40%, 300px);
+  max-width: 500px;
+  border: 3px solid #f5f6f7;
+  border-radius: 10px;
+}
+
+.proj > .proj-details > section > p {
+  max-width: 600px;
+}
+
+.proj-details > section > .proj-tech > li {
+  border: 2px solid #171219;
+  border-radius: 10px;
+}
+
+.proj.section-type-1 > .proj-details > section > .proj-tech > li {
+  border: 2px solid #edf060;
+  border-radius: 10px;
+}
