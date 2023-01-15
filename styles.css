@@ -213,3 +213,13 @@ a.button-2:hover {
   border: 2px solid #edf060;
   border-radius: 10px;
 }
+
+#education .educ-details > ul > li, #achievements .ach-details .ach-card {
+  font-size: 1.25rem;
+  border: 2px solid #171219;
+  border-radius: 15px;
+}
+
+#education section.section-type-1 .educ-details > ul > li {
+  border: 2px solid #edf060;
+}
